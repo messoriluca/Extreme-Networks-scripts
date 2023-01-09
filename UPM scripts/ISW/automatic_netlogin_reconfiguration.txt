@@ -1,4 +1,4 @@
-Purpose:
+**Purpose:**
 we have an EXOS switch having all ports configured for netlogin. We would like to dinamicaly disable netlogin when an ISW switch is connected and identified behind a port.
 
 Problem 1 - ISW up:
