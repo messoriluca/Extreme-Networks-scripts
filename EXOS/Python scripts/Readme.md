@@ -1,1 +1,1 @@
-This directory contains a collection of Python scripts I wriiten during the lasts years
+This directory contains a collection of Python scripts I have written during the lasts years
