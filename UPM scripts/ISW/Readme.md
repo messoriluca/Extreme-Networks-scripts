@@ -14,8 +14,7 @@ Once ISW switch is identified, we'll disable netlogin on that port and set a dis
 
 ## Problem 2 - ISW down:
 disabling netlogin, the device-undetected trigger will not be rised up.
-We can only trigger the port down event via syslog.
-
+We can only trigger the port down event via syslog and, if the display-string configured identify that there was an ISW connected, we'll remove the configured VLAN, enable netlogin, unconfigure display-string.
 
 
 
