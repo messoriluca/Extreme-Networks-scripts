@@ -3,6 +3,7 @@ we manage an EXOS switch having all ports configured for netlogin.
 We would like to:
 - dinamicaly disable netlogin when an ISW switch is connected and identified behind a port
 - dinamicaly enable netlogin when the port go down
+----------------------------
 
 Problem 1 - ISW up:
 ISW switches doesn't sent LLDP MED manufacturer information so, the EVENT.DEVICE_MANUFACTURER_NAME variable cannot be used to identify this kind of devices.
