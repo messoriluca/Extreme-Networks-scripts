@@ -1,7 +1,7 @@
-Purpose:
+#Purpose:
 we have an EXOS switch having all ports configured for netlogin. We would like to dinamicaly disable netlogin when an ISW switch is connected and identified behind a port.
 
-Problem 1 - ISW up:
+##Problem 1 - ISW up:
 ISW switches doesn't sent LLDP MED manufacturer information so, the EVENT.DEVICE_MANUFACTURER_NAME variable cannot be used to identify this kind of devices.
 We identify ISW switches using their MAC OUI.
 
@@ -25,7 +25,7 @@ endif
 configure upm event device-detect profile ISW-up ports <all netlogin ports>
  
 
-Problem 2 - ISW down:
+##Problem 2 - ISW down:
 disabling netlogin, the device-undetected trigger will not be rised up.
 We can only trigger the port down event via syslog.
 
