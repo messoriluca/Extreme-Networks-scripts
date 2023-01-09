@@ -6,7 +6,7 @@ We would like to:
 
 
 ## Problem 1 - ISW up
-ISW switches doesn't sent LLDP MED manufacturer information so, the EVENT.DEVICE_MANUFACTURER_NAME variable cannot be used to identify this kind of devices.
+ISW switches doesn't send LLDP MED manufacturer information so, the EVENT.DEVICE_MANUFACTURER_NAME variable cannot be used to identify this kind of devices.
 We can identify ISW switches using their MAC OUI.
 Once ISW switch is identified, we'll disable netlogin on that port and set a display string on the same port.
 
