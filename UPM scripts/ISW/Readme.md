@@ -2,7 +2,7 @@
 we manage an EXOS switch having all ports configured for netlogin. 
 We would like to:
 - dinamicaly disable netlogin when an ISW switch is connected and identified behind a port
-- dinamicaly enable netlogin when the port go down
+- dinamicaly enable netlogin when the port goes down
 
 
 ## Problem 1 - ISW up
