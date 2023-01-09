@@ -1,2 +1,2 @@
 # Extreme-Networks-scripts
-This repository contains Extreme Networks scripts that I have been writing from 2010.
+This repository contains Extreme Networks scripts for EXOS that I have been writing since 2015.
